@@ -1,6 +1,12 @@
 # DeepFirm-Quant reproducibility artifact
 
-This repository contains the public reproduction package for the IEEE Access manuscript "An Auditable Explainable AI Framework for Multi-Market Tail-Risk Warning and Leakage-Guarded Bayesian Portfolio Allocation."
+This repository contains the code, frozen results, and reproducibility evidence for the independent research project **An Auditable and Explainable AI Framework for Tail-Risk Warning and Bayesian Portfolio Allocation**.
+
+**Current manuscript title:** *Auditing Tail-Risk Warning and Bayesian Portfolio Allocation with Financial-Semantic Controls*.
+
+**Manuscript status:** Unpublished; revised following journal peer review.
+
+The research-project name above and the current manuscript title identify the same study. An earlier manuscript version used the title *An Auditable Explainable AI Framework for Multi-Market Tail-Risk Warning and Leakage-Guarded Bayesian Portfolio Allocation*. The title changed during revision; the archived evaluation and its limitations remain traceable in this repository.
 
 The package is designed for offline inspection of frozen artifacts and results. It includes the warning and allocation source code, fixed configurations, accepted, failed, and legacy warning bundles, row-level derived outputs, decision logs, result generators, and targeted tests. It does not include the manuscript submission files, provider price caches, or an executable path that repeats the frozen final evaluation.
 
@@ -74,7 +80,7 @@ Provider price tables and local caches are not redistributed. `results/frozen/in
 
 ## Version and citation
 
-The manuscript companion version is 1.0.0 and is intended to be identified by the `v1.0.0` release tag after publication. No archival DOI is claimed. Citation metadata is in [CITATION.cff](CITATION.cff).
+The `v1.0.0` tag identifies the original reproducibility release. Later commits add the [five-case financial-semantic audit](audits/mathematics_2026_09_23/README.md); those additions are separate from the tagged baseline. The current manuscript's companion evidence archive retains both the original audit result record and its migrated replay. No archival DOI is claimed. Citation metadata for the current manuscript title is in [CITATION.cff](CITATION.cff).
 
 ## License
 
