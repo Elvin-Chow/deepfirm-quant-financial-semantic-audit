@@ -1,6 +1,6 @@
-# Mathematics financial-semantic audit exercise
+# Five-case financial-semantic audit
 
-This directory contains the executable five fixed mutation cases and five matched normal controls reported in the Mathematics manuscript. This audit is included in this standalone article repository; it was added after the `v1.0.0` evaluation release in the [earlier repository](https://github.com/Elvin-Chow/deepfirm-quant-reproducibility/releases/tag/v1.0.0). The companion submission archive `Audit_Validation_Artifacts.zip` includes this source directory together with the original and migrated-run evidence records.
+This directory contains the executable five fixed mutation cases and five matched normal controls reported in **Executable Financial-Semantic Audits for Tail-Risk Warning and Bayesian Portfolio Evaluation** (unpublished). The audit originated in the September 2026 Mathematics manuscript version; the directory name is retained for historical identity and stable paths. It was added after the [original `v1.0.0` evaluation release](https://github.com/Elvin-Chow/deepfirm-quant-financial-semantic-audit/tree/v1.0.0), whose history is now preserved in this consolidated repository. The companion submission archive `Audit_Validation_Artifacts.zip` preserves the original source and original and migrated-run evidence records; its historical documentation is not rewritten by this repository update.
 
 ## Run
 

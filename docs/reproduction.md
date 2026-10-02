@@ -1,6 +1,6 @@
 # Reproduction guide
 
-This runbook applies to the archived evaluation included in this standalone financial-semantic audit package. See [provenance.md](provenance.md) for its source. The additional audit has its own [run instructions](../audits/mathematics_2026_09_23/README.md).
+This runbook applies to the archived evaluation in the consolidated companion package for *Executable Financial-Semantic Audits for Tail-Risk Warning and Bayesian Portfolio Evaluation* (unpublished). See [provenance.md](provenance.md) for its source and retained history. The additional audit has its own [run instructions](../audits/mathematics_2026_09_23/README.md).
 
 This guide covers the public, offline reproduction surface for version 1.0.0. It checks the released files and regenerates presentation artifacts from frozen outputs. It does not retrieve market data or repeat the frozen final evaluation.
 

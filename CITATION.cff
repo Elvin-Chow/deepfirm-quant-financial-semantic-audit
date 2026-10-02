@@ -1,7 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this artifact, cite the associated unpublished manuscript below."
 title: "DeepFirm-Quant Financial-Semantic Audit"
-version: 1.0.0
 type: software
 authors:
   - family-names: Zhou
@@ -10,7 +9,7 @@ repository-code: "https://github.com/Elvin-Chow/deepfirm-quant-financial-semanti
 license: MIT
 preferred-citation:
   type: article
-  title: "Auditing Tail-Risk Warning and Bayesian Portfolio Allocation with Financial-Semantic Controls"
+  title: "Executable Financial-Semantic Audits for Tail-Risk Warning and Bayesian Portfolio Evaluation"
   authors:
     - family-names: Zhou
       given-names: Hongyi

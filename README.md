@@ -1,21 +1,22 @@
 # DeepFirm-Quant Financial-Semantic Audit
 
-Companion code and frozen evaluation artifacts for **Auditing Tail-Risk Warning and Bayesian Portfolio Allocation with Financial-Semantic Controls**.
+Companion code and frozen evaluation artifacts for **Executable Financial-Semantic Audits for Tail-Risk Warning and Bayesian Portfolio Evaluation**.
 
-**Author:** Hongyi Zhou. **Manuscript status:** Unpublished.
+**Author:** Hongyi Zhou. **Manuscript status:** Unpublished; prepared for submission to *Computational Economics*.
 
-This repository combines the archived warning and allocation evaluation with the five-case financial-semantic audit used in this manuscript. It includes executable code, fixed configurations and inputs, accepted/failed/legacy warning bundles, derived results, decision logs, result generators, and targeted tests. The companion supplementary archive `Audit_Validation_Artifacts.zip` preserves the original audit results, original runner, failed invocation notes, and a separate migrated replay.
+This is the single current repository for the manuscript's warning and allocation evaluation, reproducibility materials, and five-case financial-semantic audit. It includes executable code, fixed configurations and inputs, accepted/failed/legacy warning bundles, derived results, decision logs, result generators, and targeted tests. The companion supplementary archive `Audit_Validation_Artifacts.zip` preserves the original audit results, original runner, failed invocation notes, and a separate migrated replay.
 
 The package supports offline inspection. It excludes manuscript submission files, provider price caches, local environments, and an executable path that repeats the frozen final evaluation. See [provenance](docs/provenance.md) for its relationship to the earlier DeepFirm-Quant repository.
 
-## Relationship to the earlier repository
+## Repository and version history
 
-| Repository | Role |
+| Version | Role |
 |---|---|
-| [deepfirm-quant-reproducibility](https://github.com/Elvin-Chow/deepfirm-quant-reproducibility) | Earlier project **An Auditable and Explainable AI Framework for Tail-Risk Warning and Bayesian Portfolio Allocation**, as named in the author's CV; preserves the original evaluation release and history. |
-| **deepfirm-quant-financial-semantic-audit** (this repository) | Companion package for **Auditing Tail-Risk Warning and Bayesian Portfolio Allocation with Financial-Semantic Controls**; includes the preserved evaluation and the additional five-case audit. |
+| [Current package](https://github.com/Elvin-Chow/deepfirm-quant-financial-semantic-audit) | The evaluation, reproducibility materials, and audit used by the current unpublished manuscript. |
+| [Original evaluation release](https://github.com/Elvin-Chow/deepfirm-quant-financial-semantic-audit/tree/v1.0.0) | The preserved `v1.0.0` baseline, before the audit harness was added. |
+| [Earlier repository history](https://github.com/Elvin-Chow/deepfirm-quant-financial-semantic-audit/commit/0cf63fb74d377f784f6ada6f0cb0bb3c1b1c9218) | The original repository's complete history through its last local documentation update, retained in this repository's Git history. |
 
-The article is a revised version of the same research project, not a second independent study or an accepted publication. Both repositories retain the scientific limitations of the original evidence.
+The manuscript belongs to the same DeepFirm-Quant research project as the earlier article versions. The earlier repository remains a historical source; current use and citations should point here. Consolidation preserves the scientific evidence and its limitations. See [provenance](docs/provenance.md) for the original titles, commits, and package relationship.
 
 ## Evidence boundary
 
@@ -89,7 +90,7 @@ Provider price tables and local caches are not redistributed. `results/frozen/in
 
 ## Version and citation
 
-This standalone package uses software version 1.0.0. Its Git history is separate from the earlier repository. The historical `v1.0.0` tag belongs to [deepfirm-quant-reproducibility](https://github.com/Elvin-Chow/deepfirm-quant-reproducibility/releases/tag/v1.0.0); it identifies the earlier evaluation baseline and does not include the added audit harness. No release tag or archival DOI is claimed for this repository. See [CITATION.cff](CITATION.cff) for the current unpublished manuscript citation.
+The preserved [`v1.0.0` tag](https://github.com/Elvin-Chow/deepfirm-quant-financial-semantic-audit/tree/v1.0.0) points to the original evaluation baseline, commit `bbfc627671c5b52663947847dcdf35029bc14d2c`, and does not include the later audit harness. The current `main` branch contains the combined package and updated manuscript documentation. The original commit and tag identities are retained; consolidation does not create a new evaluation result or an archival DOI. See [CITATION.cff](CITATION.cff) for the current unpublished manuscript citation.
 
 ## License
 
